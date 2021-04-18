@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GitRepoEjemplo.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace GitRepoEjemplo
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new StartPage();
         }
 
         protected override void OnStart()
